@@ -128,6 +128,12 @@ public class Main {
 
             row = sheet.createRow(++rowCount);
             cellValues = new ArrayList<>();
+            cellValues.add("Processing Fee Rate");
+            cellValues.add(String.format("%.4f", PriceConstants.SELLING_PROCESSING_FEE_PERCENTAGE));
+            writeNewRow(row, cellValues);
+
+            row = sheet.createRow(++rowCount);
+            cellValues = new ArrayList<>();
             cellValues.add("Parent 1 purchase price");
             cellValues.add(String.format("%.2f", breeding.getParent1().getPurchasePrice()));
             cellValues.add(" ");
