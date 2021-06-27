@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AxiesBreedingCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AxiesBreedingCalculator_jar</output-path>
+    <root id="archive" name="AxiesBreedingCalculator.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="AxiesBreedingCalculator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-ooxml-lite-5.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-5.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/xml-apis-1.4.01.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-compress-1.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/xmlbeans-4.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-codec-1.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-collections4-4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-ooxml-5.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/stax-api-1.0-2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
